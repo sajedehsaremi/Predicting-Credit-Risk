@@ -1,6 +1,5 @@
-# Supervised Machine Learning Homework - Predicting Credit Risk
+# Supervised Machine Learning - Predicting Credit Risk
 
-In this assignment, you will be building a machine learning model that attempts to predict whether a loan from LendingClub will become high risk or not. 
 
 ## Background
 
@@ -8,7 +7,6 @@ LendingClub is a peer-to-peer lending services company that allows individual in
 
 You will be using this data to create machine learning models to classify the risk level of given loans. Specifically, you will be comparing the Logistic Regression model and Random Forest Classifier.
 
-## Instructions
 
 ### Retrieve the data
 
@@ -38,10 +36,6 @@ Create a LogisticRegression model, fit it to the data, and print the model's sco
 The data going into these models was never scaled, an important step in preprocessing. Use `StandardScaler` to scale the training and testing sets. Before re-fitting the LogisticRegression and RandomForestClassifier models on the scaled data, make another prediction about how you think scaling will affect the accuracy of the models. Write your predictions down and provide justification.
 
 Fit and score the LogisticRegression and RandomForestClassifier models on the scaled data. How do the model scores compare to each other, and to the previous results on unscaled data? How does this compare to your prediction? Write down your results and thoughts.
-
-## Rubric
-
-[Unit 19 - Supervised Machine Learning Homework Rubric](https://docs.google.com/document/d/1f_eN3TYiGqlaWL9Utk5U-P491OeWqFSiv7FIlI_d4_U/edit?usp=sharing)
 
 ### References
 
